@@ -16,11 +16,11 @@ const TaskTable = ({ tasks, onDelete, onUpdate }) => {
   const handleEditChange = (taskId, field, value) => {
     const updatedTask = tasks.find((task) => task.id === taskId);
     if (!updatedTask) return;
+
     updatedTask[field] = value;
     onUpdate(updatedTask);
-    if (field === "status" || field === "title" || field === "description") {
-      toast.success("Task updated successfully!");
-    }
+
+    toast.success("Task updated successfully!");
   };
 
   const handleEditClick = (taskId) => {
