@@ -26,5 +26,12 @@ we fetched only 20 data from the API to show the data to the user.
 5. We use the task table from SHADCCN Ui to show the data in the form of tables this is the ode of task tables
 ![image_alt](https://github.com/Harshit001-ctrl/Task-List-Manager-with-Editable-Table/blob/5175b9a5ceb1ffbe8334ab49801df77772224088/Task%20Table.png) 
 
-it is shown in the form of table 
+it is shown in the form of a table 
 ![image_alt](https://github.com/Harshit001-ctrl/Task-List-Manager-with-Editable-Table/blob/5175b9a5ceb1ffbe8334ab49801df77772224088/task%20Table%202.png) 
+
+after downloading first of all use -- npm install react
+When using this make sure to download all frameWorks like 
+React + Vite - npm create vite@latest my-react-app --template
+Tailwind CSS 
+Shadcn UI
+Radix UI
