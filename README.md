@@ -31,7 +31,7 @@ it is shown in the form of a table
 
 after downloading first of all use -- npm install react
 When using this make sure to download all frameWorks like 
-React + Vite - npm create vite@latest my-react-app --template
-Tailwind CSS 
-Shadcn UI
-Radix UI
+React + Vite - npm create vite@latest my-react-app --template.
+Tailwind CSS, 
+Shadcn UI,
+Radix UI.
