@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "jsx": "react",
     "target": "ES2020",                // The JavaScript version to compile to.
     "module": "ESNext",                // The module system to use (e.g., ESNext for modern JS, CommonJS for Node.js).
     "lib": ["DOM", "ES2020"],          // Library definitions to include (e.g., DOM for browser support).
