@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                // The JavaScript version to compile to.
+    "module": "ESNext",                // The module system to use (e.g., ESNext for modern JS, CommonJS for Node.js).
+    "lib": ["DOM", "ES2020"],          // Library definitions to include (e.g., DOM for browser support).
+    "strict": true,                    // Enable all strict type-checking options.
+    "baseUrl": ".",                    // Base directory for non-relative module imports.
+    "paths": {
+      "@/*": ["src/*"]                 // Path aliases for cleaner imports (e.g., "@/utils" -> "src/utils").
+    },
+    "outDir": "./dist",                // Output directory for compiled files.
+    "rootDir": "./src",                // Root directory of source files.
+    "esModuleInterop": true,           // Allow `import` statements to work with CommonJS modules.
+    "forceConsistentCasingInFileNames": true, // Enforce consistent file naming.
+    "skipLibCheck": true,              // Skip type checking of declaration files.
+    "moduleResolution": "Node",       // Resolve modules using Node.js-style resolution.
+    "resolveJsonModule": true,         // Allow importing JSON files.
+    "allowSyntheticDefaultImports": true, // Allow default imports for modules without them.
+    "isolatedModules": true,           // Ensure each file can be transpiled independently.
+    "noImplicitReturns": true,         // Warn on missing `return` statements.
+    "noFallthroughCasesInSwitch": true // Error on fallthrough cases in switch statements.
+  },
+  "include": ["src"],                  // Include all files in the "src" folder.
+  "exclude": ["node_modules", "dist"]  // Exclude "node_modules" and "dist" folders from compilation.
+}
